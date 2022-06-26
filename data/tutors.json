@@ -1,0 +1,49 @@
+{
+    "83-567-3906":{
+        "Fname":"Taylor",
+        "Lname":"Swift",
+        "class":"CSE 110",
+        "availability":{"Mon":{"start_time":"10:00","end_time":"1:00"},
+                        "Wed":{"start_time":"10:00","end_time":"1:00"},
+                        "Sat":{"start_time":"10:00","end_time":"1:00"}
+                        }
+    },
+    "22-222-2222":{
+        "Fname":"Samantha",
+        "Lname":"Staheli",
+        "class":"ENG 150",
+        "availability":{"Mon":{"start_time":"10:00","end_time":"2:00"},
+                        "Wed":{"start_time":"10:00","end_time":"2:00"},
+                        "Sat":{"start_time":"10:00","end_time":"2:00"}
+                        }
+    },
+    "56-782-1653":{
+        "Fname":"Brother",
+        "Lname":"Clements",
+        "class":"ENG 301",
+        "availability":{"Tue":{"start_time":"9:00","end_time":"2:00"},
+                        "Thu":{"start_time":"9:00","end_time":"2:00"},
+                        "Fri":{"start_time":"9:00","end_time":"1:00"}
+                        }
+    },
+    "78-410-2894":{
+        "Fname":"Gavin",
+        "Lname":"South",
+        "class":"MATH 119",
+        "availability":{"Mon":{"start_time":"10:00","end_time":"2:00"},
+                        "Tue":{"start_time":"10:00","end_time":"2:00"},
+                        "Thu":{"start_time":"10:00","end_time":"2:00"},
+                        "Sat":{"start_time":"10:00","end_time":"12:00"}
+                        }
+    },
+    "26-891-0233":{
+        "Fname":"Tyler",
+        "Lname":"English",
+        "class":"BIO 180",
+        "availability":{"Mon":{"start_time":"11:00","end_time":"2:00"},
+                        "Tue":{"start_time":"9:00","end_time":"11:00"},
+                        "Thu":{"start_time":"11:00","end_time":"2:00"},
+                        "Sat":{"start_time":"9:00","end_time":"11:00"}
+                        }
+    }
+}
