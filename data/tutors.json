@@ -45,5 +45,50 @@
                         "Thu":{"start_time":"11:00","end_time":"2:00"},
                         "Sat":{"start_time":"9:00","end_time":"11:00"}
                         }
+    },
+    "83-072-0912":{
+        "Fname":"Christian",
+        "Lname":"Viazzo",
+        "class":"CHEM 105",
+        "availability":{"Tues":{"start_time": "9:00", "end_time":"2:00"},
+             "Thurs":{"start_time": "9:00", "end_time":"2:00"},
+             "Friday":{"start_time": "9:00", "end_time":"11:00"}
+            }
+    },
+    "94-719-2054":{
+        "Fname":"Thomas",
+        "Lname":"Moore",
+        "class":"REL 190",
+        "availability":{"Tues":{"start_time": "9:00", "end_time":"2:00"},
+        "Thurs":{"start_time": "9:00", "end_time":"2:00"},
+        "Friday":{"start_time": "9:00", "end_time":"11:00"}
+       }
+    },
+    "33-333-3333":{
+        "Fname":"Doubra",
+        "Lname":"Daunemigha",
+        "class":"ECEN 106",
+        "availability":{"Tues":{"start_time": "10:00", "end_time":"2:00"},
+             "Thurs":{"start_time": "10:00", "end_time":"2:00"},
+             "Friday":{"start_time": "10:00", "end_time":"11:00"}
+            }
+    },
+    "72-535-7264":{
+        "Fname":"Michelle",
+        "Lname":"Huang",
+        "class":"CSE 310",
+        "availability":{"Tues":{"start_time": "10:00", "end_time":"2:00"},
+        "Thurs":{"start_time": "10:00", "end_time":"2:00"},
+        "Friday":{"start_time": "10:00", "end_time":"12:00"}
+       }
+    },
+    "73-220-1977":{
+        "Fname":"Kim",
+        "Lname":"Taehyung",
+        "class":"ART 150",
+        "availability":{"Tues":{"start_time": "10:00", "end_time":"2:00"},
+        "Thurs":{"start_time": "10:00", "end_time":"2:00"},
+        "Friday":{"start_time": "10:00", "end_time":"12:00"}
+       }
     }
 }
