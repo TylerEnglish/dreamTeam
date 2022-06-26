@@ -1,0 +1,21 @@
+{
+    "intents":[
+    {"tag": "Day of Week",
+        "patterns": ["monday", "tuesday", "wendsay", "thursday", "friday", "saturday", "sunday", "mon", "tues", "wed", "thur", " fri", "sat", "sun"],
+        "responses": ["day"],
+        "context_set": ""
+    },
+    {
+    "tag": "Time",
+        "patterns": ["1", "2", "3", "4", "5", "6", "7", "8", "9"],
+        "responses": ["time"],
+        "context_set": ""
+    },
+    {
+    "tag": "Date",
+        "patterns": ["january","jan", "february","feb", "march","mar", "may", "june","jun", "july", "august","aug", "september","sept", "october","oct", "november","nov", "december","dec"],
+        "responses": ["date"],
+        "context_set": ""      
+    }
+]
+}
