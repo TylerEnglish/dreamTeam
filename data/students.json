@@ -1,0 +1,77 @@
+{
+    "11-111-1111":{
+        "Fname":"Pun",
+        "Lname":"Tangsiriruangrit",
+        "classes":{"MATH 119":"A","CSE 310":"F","ENG 301":"B","ART 150":"C"}
+    },
+    "22-222-2222":{
+        "Fname":"Stephine",
+        "Lname":"Smith",
+        "classes":{"MATH 119":"F","CSE 310":"F","ENG 301":"F","ART 150":"F"}
+    },
+    "33-333-3333":{
+        "Fname":"John",
+        "Lname":"Mayor",
+        "classes":{"MATH 119":"D","CSE 310":"F","ENG 301":"F","ART 150":"C"}
+    },
+    "44-444-4444":{
+        "Fname":"Dolly",
+        "Lname":"Parton",
+        "classes":{"MATH 119":"A","CSE 310":"A","ENG 301":"C","ART 150":"F"}
+    },
+    "55-555-5555":{
+        "Fname":"Kelly",
+        "Lname":"Clarkson",
+        "classes":{"MATH 119":"A","CSE 310":"F","ENG 301":"F","ART 150":"C"}
+    },
+    "66-666-6666":{
+        "Fname":"Bey",
+        "Lname":"once",
+        "classes":{"MATH 119":"A","CSE 310":"F","ENG 301":"B","ART 150":"C"}
+    },
+    "77-777-7777":{
+        "Fname":"Dream",
+        "Lname":"Team",
+        "classes":{"MATH 119":"A","CSE 310":"A","ENG 301":"F","ART 150":"A"}
+    },
+    "88-888-8888":{
+        "Fname":"Zara",
+        "Lname":"Larsson",
+        "classes":{"MATH 119":"A","CSE 310":"A","ENG 301":"F","ART 150":"A"}
+    },
+    "99-999-9999":{
+        "Fname":"Dua",
+        "Lname":"Lipa",
+        "classes":{"MATH 119":"F","CSE 310":"A","ENG 301":"A","ART 150":"A"}
+    },
+    "10-101-1010":{
+        "Fname":"Justin",
+        "Lname":"Bieber",
+        "classes":{"MATH 119":"A","CSE 310":"F","ENG 301":"A","ART 150":"A"}
+    },
+    "12-122-1212":{
+        "Fname":"Selena",
+        "Lname":"Gomez",
+        "classes":{"MATH 119":"A","CSE 310":"F","ENG 301":"F","ART 150":"A"}
+    },
+    "13-133-1313":{
+        "Fname":"Hailey",
+        "Lname":"Bieber",
+        "classes":{"MATH 119":"F","CSE 310":"A","ENG 301":"A","ART 150":"A"}
+    },
+    "14-141-1414":{
+        "Fname":"Ariana",
+        "Lname":"Grande",
+        "classes":{"MATH 119":"F","CSE 310":"F","ENG 301":"F","ART 150":"F"}
+    },
+    "15-117-1557":{
+        "Fname":"Olivia",
+        "Lname":"Rodrigo",
+        "classes":{"MATH 119":"A","CSE 310":"A","ENG 301":"A","ART 150":"A"}
+    },
+    "16-167-7777":{
+        "Fname":"Leah",
+        "Lname":"Nobel",
+        "classes":{"MATH 119":"A","CSE 310":"C","ENG 301":"A","ART 150":"C"}
+    }
+}
