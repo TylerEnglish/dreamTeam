@@ -15,7 +15,8 @@ import pickle
 
 def train(data):
     stemmer = LancasterStemmer()
-    with open(f"dreamTeam\\training\data\\{data}_intents.json") as file:
+    
+    with open(f"training\\data\\{data}_intents.json") as file:
         data = json.load(file)
 
     train = input("Train the model type in (train): ")
@@ -75,7 +76,7 @@ def train(data):
         training = np.array(training)
         output = np.array(output)
 
-        with open(f'dreamTeam\\training\\data\\data.pickel', 'wb') as f:
+        with open(f'training\\data\\data.pickel', 'wb') as f:
             pickle.dump((words, labels, training, output), f)
 
     return data
@@ -88,9 +89,9 @@ def _model(training, output, data, model):
 
     if train.lower() == "train":
         model.fit(training, output, n_epoch=1000, batch_size=8, show_metric=True)
-        model.save(f"dreamTeam\\training\\data\\model.tflearn")
+        model.save(f"training\\data\\model.tflearn")
     else:
-        model.load(f"dreamTeam\\training\\data\\model.tflearn")
+        model.load(f"training\\data\\model.tflearn")
 
 
 def bag_of_words(s, words):
@@ -115,7 +116,7 @@ def chat():
     # see if we want to train
     data = train(intent_file)
     # Load the saved data
-    with open(f'dreamTeam\\training\\data\\data.pickel', 'rb') as f:
+    with open(f'training\\data\\data.pickel', 'rb') as f:
             words, labels, training, output = pickle.load(f)
 
     ops.reset_default_graph()
@@ -131,7 +132,7 @@ def chat():
     
     _model(training, output, intent_file, model)
 
-    model.load(f"dreamTeam\\training\\data\\model.tflearn")
+    model.load(f"training\\data\\model.tflearn")
     while True:
         inp = input("You: ")
         if inp.lower() == "quit":
