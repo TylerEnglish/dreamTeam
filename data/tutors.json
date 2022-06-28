@@ -19,7 +19,7 @@
     },
     "56-782-1653":{
         "Fname":"Brother",
-        "Lname":"Clements",
+        "Lname":"C",
         "class":"ENG 301",
         "availability":{"Tue":{"start_time":"9:00","end_time":"2:00"},
                         "Thu":{"start_time":"9:00","end_time":"2:00"},
@@ -74,8 +74,8 @@
             }
     },
     "72-535-7264":{
-        "Fname":"Michelle",
-        "Lname":"Huang",
+        "Fname":"Mary",
+        "Lname":"Stuart",
         "class":"CSE 310",
         "availability":{"Tues":{"start_time": "10:00", "end_time":"2:00"},
         "Thurs":{"start_time": "10:00", "end_time":"2:00"},
