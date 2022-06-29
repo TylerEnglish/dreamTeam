@@ -2,7 +2,7 @@
     "83-567-3906":{
         "Fname":"Taylor",
         "Lname":"Swift",
-        "class":["CSE 110"],
+        "class":"CSE 110",
         "availability":{"Mon":{"start_time":"10:00","end_time":"1:00"},
                         "Wed":{"start_time":"10:00","end_time":"1:00"},
                         "Sat":{"start_time":"10:00","end_time":"1:00"}
@@ -11,7 +11,7 @@
     "22-222-2222":{
         "Fname":"Samantha",
         "Lname":"Staheli",
-        "class":["ENG 150"],
+        "class":"ENG 150",
         "availability":{"Mon":{"start_time":"10:00","end_time":"2:00"},
                         "Wed":{"start_time":"10:00","end_time":"2:00"},
                         "Sat":{"start_time":"10:00","end_time":"2:00"}
@@ -20,7 +20,7 @@
     "56-782-1653":{
         "Fname":"Brother",
         "Lname":"C",
-        "class":["ENG 301"],
+        "class":"ENG 301",
         "availability":{"Tue":{"start_time":"9:00","end_time":"2:00"},
                         "Thu":{"start_time":"9:00","end_time":"2:00"},
                         "Fri":{"start_time":"9:00","end_time":"1:00"}
@@ -29,7 +29,7 @@
     "78-410-2894":{
         "Fname":"Gavin",
         "Lname":"South",
-        "class":["MATH 119"],
+        "class":"MATH 119",
         "availability":{"Mon":{"start_time":"10:00","end_time":"2:00"},
                         "Tue":{"start_time":"10:00","end_time":"2:00"},
                         "Thu":{"start_time":"10:00","end_time":"2:00"},
@@ -39,7 +39,7 @@
     "26-891-0233":{
         "Fname":"Tyler",
         "Lname":"English",
-        "class":["BIO 180"],
+        "class":"BIO 180",
         "availability":{"Mon":{"start_time":"11:00","end_time":"2:00"},
                         "Tue":{"start_time":"9:00","end_time":"11:00"},
                         "Thu":{"start_time":"11:00","end_time":"2:00"},
@@ -49,7 +49,7 @@
     "83-072-0912":{
         "Fname":"Christian",
         "Lname":"Viazzo",
-        "class":["CHEM 105"],
+        "class":"CHEM 105",
         "availability":{"Tues":{"start_time": "9:00", "end_time":"2:00"},
                         "Thu":{"start_time": "9:00", "end_time":"2:00"},
                         "Fri":{"start_time": "9:00", "end_time":"11:00"}
@@ -58,7 +58,7 @@
     "94-719-2054":{
         "Fname":"Thomas",
         "Lname":"Moore",
-        "class":["REL 190"],
+        "class":"REL 190",
         "availability":{"Tues":{"start_time": "9:00", "end_time":"2:00"},
                         "Thu":{"start_time": "9:00", "end_time":"2:00"},
                         "Fri":{"start_time": "9:00", "end_time":"11:00"}
@@ -67,7 +67,7 @@
     "33-333-3333":{
         "Fname":"Doubra",
         "Lname":"Daunemigha",
-        "class":["ECEN 106"],
+        "class":"ECEN 106",
         "availability":{"Tues":{"start_time": "10:00", "end_time":"2:00"},
                         "Thu":{"start_time": "10:00", "end_time":"2:00"},
                         "Fri":{"start_time": "10:00", "end_time":"11:00"}
@@ -76,7 +76,7 @@
     "72-535-7264":{
         "Fname":"Mary",
         "Lname":"Stuart",
-        "class":["CSE 310"],
+        "class":"CSE 310",
         "availability":{"Tues":{"start_time": "10:00", "end_time":"2:00"},
                         "Thu":{"start_time": "10:00", "end_time":"2:00"},
                         "Fri":{"start_time": "10:00", "end_time":"12:00"}
@@ -85,7 +85,7 @@
     "73-220-1977":{
         "Fname":"Kim",
         "Lname":"Taehyung",
-        "class":["ART 150", "CSE 310"],
+        "class":"ART 150",
         "availability":{"Tues":{"start_time": "10:00", "end_time":"2:00"},
                         "Thu":{"start_time": "10:00", "end_time":"2:00"},
                         "Fri":{"start_time": "10:00", "end_time":"12:00"}

@@ -34,7 +34,7 @@ def student_contact_list(_grades = ['F', 'D', 'C']):
 # Example: @param you can send a list of grades you want to search for instead of the risky ones. 
 yeeyee = student_contact_list()
 
-print(yeeyee)
+# print(yeeyee)
 
 # Tutor Functions
 def read_tutor(_path = "data/tutors.json"):
@@ -48,7 +48,11 @@ def read_tutor(_path = "data/tutors.json"):
     return(df)
 
 tutors = read_tutor()
-print(tutors['class'][9][1])
+
+
+
+
+
 
 
 
@@ -64,33 +68,13 @@ def save():
 
     pass
 
-def find():
+def find(student, tutors, time):
     """
     Find classes related to 
     the student failing classes
     """
-    def filter():
-        """
-        filter out all tutors that 
-        don't match the fail classes
-        """
-        pass
+    
 
-    def search():
-        """
-        Select all tutors
-        with related classes
-        """
-        pass
-
-    def join():
-        """
-        Join all the tutors
-        together
-        """
-        pass
-
-    pass
 
 def launch_bot():
     """
@@ -137,11 +121,23 @@ def launch_bot():
             net = tflearn.regression(net)
             return tflearn.DNN(net)
             
-        #Loading model
+    #Loading model
     model = make_model()
     model.load(f"training\\data\\model.tflearn")
     #Starting up the chatbot
     print("Start talking with bot!(type 'quit' to stop)")
+
+    time = {
+        'day':'',
+        'time':'',
+        'month':''
+    }
+
+
+    times = ['1', '2','3','4','5','6','7','8','9','10','11','12']
+    days = ["monday", "tuesday", "wendsay", "thursday", "friday", "saturday", "sunday", "mon", "tues", "wed", "thur", " fri", "sat", "sun"]
+    months = ["january","jan", "february","feb", "march","mar", "may", "june","jun", "july", "august","aug", "september","sept", "october","oct", "november","nov", "december","dec"]
+    
     while True:
         inp = input("You: ")
         if inp.lower() == "quit":
@@ -160,10 +156,55 @@ def launch_bot():
         choice = random.choice(responses)  
         
         
-        print(choice)
+        if choice == 'day':
+            print('day')
+            '''
+            take out the day
+            save the info in a dictionary
+            '''
+            inpu = nltk.word_tokenize(inp)
+            inpu = [stemmer.stem(word.lower()) for word in inpu if word not in "?"]
+            act_day = ''
+            for i in inpu:
+                if i.lower() in days:
+                    act_day = i
+                    break
+            print(inpu)
+            act_day = act_day.title()
+            print(act_day[:3])
+
+        elif choice == 'time':
+            print('time')
+            '''
+            take out the time
+            '''
+            inpu = nltk.word_tokenize(inp)
+            inpu = [stemmer.stem(word.lower()) for word in inpu if word not in "?"]
+            act_time = []
+            for i in inpu:
+                if i in times:
+                    act_time.append(i)
+            print(inpu)
+            print(act_time)
+
+        elif choice == 'date':
+            print('date')
+            '''
+            take out the month
+            '''
+            inpu = nltk.word_tokenize(inp)
+            inpu = [stemmer.stem(word.lower()) for word in inpu if word not in "?"]
+            act_date = ''
+            for i in inpu:
+                if i.lower() in months:
+                    act_date = i
+                    break
+            print(inpu)
+            print(act_date)
+            
 
 
-
+# launch_bot()
 
 
 def populate_appt_table():
